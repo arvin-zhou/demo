@@ -121,10 +121,10 @@ $(function () {
     var iCount = setInterval(ImgSlider, 5000);
 
 $('#boxNav').find('ul').mouseenter(function () {
-		clearInterval(iCount);console.log('mouseenter')}
+		clearInterval(iCount);}
 )
 	$('#boxNav').find('ul').mouseleave(function () {
-		iCount = setInterval(ImgSlider, 5000);console.log('mouseleave')}
+		iCount = setInterval(ImgSlider, 5000);}
 )	
 	$('#box').find('span').hover(function () {
 		clearInterval(iCount)},function () {
